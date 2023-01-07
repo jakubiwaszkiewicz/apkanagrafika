@@ -26,7 +26,7 @@ function Content() {
             </div>
             </section>
             <section id="ulubiona">
-                <h1>Ulubiona postać w Przyjaciołach</h1>
+                <h1>Ulubiona postać</h1>
                 <div className="verticalContainer">
                 <p className="half">
                     Deal with it

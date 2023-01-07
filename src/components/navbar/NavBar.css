@@ -1,0 +1,13 @@
+.NavBar {
+    background: #2d5d29;
+}
+
+ul {
+    list-style: none;
+    border-bottom: 1px solid #1d4d18;
+    box-shadow: 0 0 1rem rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

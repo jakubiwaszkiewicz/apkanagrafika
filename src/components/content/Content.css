@@ -1,0 +1,16 @@
+
+/*
+h1 {
+    font
+}*/
+.verticalContainer {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.half {
+    width: 50%;
+    margin: 0;
+}

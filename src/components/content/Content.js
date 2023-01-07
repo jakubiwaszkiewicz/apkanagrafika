@@ -2,6 +2,7 @@ import "./Content.css"
 import Img1 from './assets/rachel-friends.gif'
 import Img2 from './assets/seul-friends.gif'
 import Img3 from './assets/meme.png'
+import Img4 from './assets/joe.jpg'
 function Content() {
     return (
         <div className="Content">
@@ -12,7 +13,7 @@ function Content() {
                 <p>Żeby zdjęcia w apce się ładnie wyświtlały polecam odpalić ją na kompie bo niestety wersja mobilna
                     kosztowała by mnie z pare godzin pracy więcej :(</p>
             </section>
-            <section id="dlaczegoja"></section>
+            <section id="dlaczegoja">
                 <h1>Dlaczego ja?</h1>
             <div className="verticalContainer">
                 <img src={Img1}/>
@@ -22,13 +23,16 @@ function Content() {
                 Na pewno lubie zapierdalać najlepiej za darmo, a jako że niestety nie mamy projektu związanego z kopaniem rowów
                 na budowie za 0zł/h to od biedy może być i to BSE.
                 </p>
-
             </div>
-            <section id="motywacja">
-                <h1>Motywacja</h1>
-                <p>
-                    Ostatnio miewam przebłyski motywacji, lubie robić coś w grupie. No takie basic rzeczy.
+            </section>
+            <section id="ulubiona">
+                <h1>Ulubiona postać w Przyjaciołach</h1>
+                <div className="verticalContainer">
+                <p className="half">
+                    Deal with it
                 </p>
+                    <img src={Img4}/>
+                </div>
             </section>
             <section id="dlaczegobse">
                 <h1>Dlaczego BSE?</h1>
